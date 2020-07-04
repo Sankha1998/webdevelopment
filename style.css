@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+}
+#img_start{
+
+	
+	  background-image: url('http://www.campusx.in/static/landing/img/bg1-min.jpeg');
+	  background-size: cover;
+	  background-position: top center;
+	  width: 160px;
+	  height: 160px;
+	  border: 2px solid;
+
+	
+ 
+}
+.coloridtag{
+
+
+	color: #fff;
+	font-size: 50px;
+	
+
+}
+
+.text1{
+	width: 60%; 
+	text-align: justify;
+	border: 5px red solid;
+	color: yellow;
+	font-size: 25px;
+
+}
