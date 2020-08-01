@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>ccs4</title>
+</head>
+<style type="text/css">
+	body {
+		margin: 0px;
+		padding: 0px;
+	}
+
+
+	.navbar{
+	
+		background-color: green;
+		padding: 20px;
+	}
+
+	.navbar ul{
+		display: inline;
+
+	}
+
+		.navbar li{
+		display: inline;
+		padding-left:20px;
+		width: 100%;
+		font-size: 20px;		
+	}
+
+
+		.navbar a{
+			text-decoration: none;
+			color:pink;
+		}
+
+		.navbar a:hover{
+			color:yellow;
+			background-color: red;
+			padding: 15px;
+		}
+
+		.sub{
+			width: 100%;
+			display: none;
+
+		}
+
+		.navbar li:hover .sub{
+			display: inline-block;
+			position: absolute;
+		
+		}
+
+		.navbar li:hover .sub ul{
+			display: inline-block;
+			font-size: 1.5em;
+			background-color: black;
+			margin-left: -277px;
+			margin-top: 43px;
+			padding: 20px;
+			width: 100%;
+			padding-left: 30px;
+		}
+
+		.navbar li:hover .sub ul li{
+			display: inline;
+			padding: 5px;
+			border-bottom: 1px #fff dotted;
+		}
+
+
+		.navbar li:hover .sub ul li a{
+			color:green;
+			text-decoration: none;
+			font-size: 1em;
+		}
+
+
+
+		.navbar li:hover .sub ul li a:hover {
+			color:#fff;
+			font-size: 1em;
+		}
+
+		.sub1{
+			display: none;
+
+		}
+
+		.sub1 ul:hover{
+			display: block;
+			padding: -40px;	
+
+
+		}
+			.menu1:hover .sub1{
+			display: block;
+			list-style: none;
+			position: absolute;
+			margin-left: 600px;
+			margin-top: -50px;
+			text-align: left;
+			width: 110px;
+			text-align: left;
+
+	
+		
+		}
+
+</style>
+
+
+
+
+<body>
+
+	<div class="navbar">
+		
+		<ul>
+			<li> <a href="#"> <span><i class="fa fa-home"></i>&nbsp</span> Home </a></li>
+
+
+
+			<li> <a href="#"> <span><i class="fas fa-stream"></i>&nbsp</span> About </a>
+
+
+			<div class="sub">
+					
+					<ul>
+						<li><a href="">Menu #1</a></li>
+						<li><a href="">&nbsp Menu #2</a></li>
+						<li><a href="">&nbsp Menu #3</a></li>
+						<li class="menu1"><a href="">Menu #4</a>
+
+							<div class="sub1">
+								
+								<ul>
+									<li><a href="">Submenu-1</a></li>
+									<li><a herf ="">Submenu-2</a></li>
+									<li><a href=""> Submenu-3</a></li>
+									<li><a href=""> Submenu-4</a></li>
+								</ul>
+							</div>
+
+
+						</li>
+					</ul>
+				</div>
+
+
+			</li>
+			<li> <a href="#"> Services </a></li>
+			<li> <a href="#"> Products </a></li>
+			<li> <a href="#"> LogOut </a></li>
+		</ul>
+	</div>
+
+<p> &nbsp click on about</p>
+<p> &bnbsp then Menu #4</p>
+
+
+</body>
+</html> 
